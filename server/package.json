@@ -1,0 +1,29 @@
+{
+  "name": "group_12_cs554_final_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node WEB2.ts",
+    "start": "nodemon server.js"
+  },
+  "author": "Siddhant Barua 10439929, Vikas Bhat 10432861, Tulsi Patel 10440620, Shrikant Sherkar 10441730, Deep Makwana 10442287",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.16.1",
+    "@types/mongodb": "^3.1.25",
+    "@types/uuid": "^3.4.4",
+    "aws-sdk": "^2.448.0",
+    "body-parser": "^1.18.3",
+    "dotenv": "^8.0.0",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.13",
+    "node-fetch": "^2.5.0",
+    "nodemon": "^1.19.0",
+    "request": "^2.88.0",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.5",
+    "uuid": "^3.3.2"
+  }
+}

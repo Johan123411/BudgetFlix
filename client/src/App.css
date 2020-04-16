@@ -1,0 +1,339 @@
+.App {
+   text-align: center;
+}
+
+.SubApp {
+   text-align: right;
+   color: white;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+   background-color: #424242;
+}
+
+.megaCard {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+   background-color: #424242;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.megaCard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+  color: #FFFFFF;
+  font-size: 1.5em;
+}
+
+h4 {
+   font-weight: bold;
+}
+
+.megaContainer {
+  padding: 2px 16px;
+  color: #FFFFFF;
+  font-size: 1.5em;
+}
+
+.App-logo {
+   animation: 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) 0s 1 normal both running scale-up-center;
+   height: 80px;
+}
+
+/* .nav-wrapper {
+   position: fixed;
+} */
+
+.App-header {
+   background-color: #424242;
+   height: 200px;
+   padding: 15px;
+   color: #222;
+}
+
+.App-title {
+   font-size: 1.5em;
+   font-weight: bold;
+   color: white;
+}
+
+h1 {
+   margin: auto;
+   text-align: center;
+   font-size: 35px;
+   font-weight: bold;
+   color:  #424242;
+}
+
+.App-body {
+   padding: 15px;
+   border-radius: 2px;
+   font-size: 20px;
+   color: #424242;
+   /* max-width: 700px; */
+   height: auto;
+   margin: auto;
+   text-align: center;
+}
+
+h2.App-body {
+   font-size: 25px;
+   font-weight: bold;
+}
+
+p.App-body {
+   font-size: 20px;
+}
+
+.video-react1 {
+  margin-left: 100;
+  margin-right: 100;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+cite {
+   font-weight: bold;
+}
+
+table {
+   align-content: center;
+   margin: auto;
+}
+
+td {
+   padding: 10px;
+}
+
+.App-intro {
+   font-size: large;
+}
+
+.background-col {
+   background-image: url("background2.jpg");
+}
+
+.video-react{
+  margin-left: auto;
+  margin-right: auto;
+  width: 800;
+  height: 400;
+  margin-left: 200;
+  margin-right: 200;
+  margin-bottom: 200;
+  margin-top: 200;
+}
+
+.image-display{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.cap-first-letter {
+   text-transform: capitalize;
+   text-align: center;
+   font-size: 70px;
+   font-stretch: ultra-condensed
+}
+
+.cap-first-letter1 {
+   text-transform: capitalize;
+   text-align: center;
+	font-size: 30px;
+	 margin-left: 300px;
+	 margin-right: 300px;
+}
+
+.col-sm-6,
+col-md-4 {
+   border: 1px;
+}
+@keyframes App-logo-spin {
+   from {
+      transform: rotate(0deg);
+   }
+   to {
+      transform: rotate(360deg);
+   }
+}
+
+.showlink {
+   padding: 2rem 8rem;
+   background-color: white;
+   border-radius: 80px;
+   color: #1e8678;
+   text-decoration: none !important;
+   font-stretch: ultra-condensed;
+   font-size: 25px;
+   font-weight: bold;
+   text-align: center;
+}
+
+.showlink:hover {
+   background-color: transparent;
+   color: white;
+   border: 2px solid white;
+}
+
+label input[type="checkbox"] {
+   display: none;
+}
+
+.favorites-btn {
+  top: 0%;
+  right: 0%;
+  position: absolute;
+  display: inline-block;
+}
+
+.favorites-btn .glyphicon {
+   color: gold;
+   position: absolute;
+   top: 0;
+   right: 0;
+   font-size: 50px;
+   margin-right: 20px;
+   padding-top: 10px;
+}
+
+.favorites-btn .add-to-favorites {
+  visibility: hidden;
+  width: 150px;
+  background-color: #767676;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 2px 0;
+  position: absolute;
+  z-index: 1;
+  top: 65px;
+  right: -28px;
+  margin-left: -60px;
+  font-size: 15px;
+}
+
+.favorites-btn .glyphicon-star-empty {
+   color: gray;
+}
+
+.favorites-btn .glyphicon-star {
+   opacity: 0;
+   transition: opacity 0.2s ease-in-out;
+}
+
+.favorites-btn:hover .glyphicon-star{
+   opacity: 0.5;
+   transition: width 2s;
+   transition-timing-function: ease-in-out;
+}
+
+.favorites-btn .add-to-favorites::after {
+   content: " ";
+   position: absolute;
+   bottom: 100%;
+   left: 50%;
+   margin-left: -5px;
+   border-width: 5px;
+   border-style: solid;
+   border-color: transparent transparent gray transparent;
+}
+
+.favorites-btn:hover .add-to-favorites{
+   visibility: visible;
+}
+
+.favorites-btn input[type="checkbox"]:checked ~ .glyphicon-star {
+   opacity: 1;
+}
+
+.carousel {
+   height: 650px;
+   width: 700px;
+   margin: auto;
+   font-weight: bold;
+}
+
+.carousel:hover {
+   box-shadow: 0 8px 16px 0 rgb(189, 187, 187);
+}
+
+.carousel-inner {
+   height: 100%;
+   width: 100%;
+   margin: auto;
+   position: relative;
+}
+
+.carousel-item .carousel-item {
+   height: 100%;
+   width: 100%;
+   margin: auto;
+   position: relative;
+}
+
+div.carousel-item.active {
+   height: 100%;
+   width: 100%;
+   margin: auto;
+   position: relative;
+   visibility: hidden;
+}
+
+img.d-block.w-100 {
+   visibility: visible;
+   max-width: 700px;
+   margin: auto;
+}
+
+div.text-block {
+  visibility: visible;
+  position: absolute;
+  bottom: 50px;
+  margin-left: 220px;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  background-color: rgba(0, 0, 0, 0.699);
+  font-weight: bold;
+}
+
+h2.text-block {
+   font-size: 30px;
+}
+
+span.sr-only {
+   background-color: #767676;
+}
+
+label.search {
+   color: #424242;
+   font-size: 25px;
+}
+
+.search input[type=text] {
+   border: 1px solid black;  
+   background-color: white;
+ }
+
